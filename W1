@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styling Example</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h2>This is a level 2 heading</h2>
+
+    <h3>This is a level 3 heading</h3>
+
+    <hr>
+
+    <p>This is a paragraph of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <div class="container">
+        <p>This paragraph is within a container div.</p>
+    </div>
+
+    <p>This sentence has a <span class="highlight">highlighted</span> word.</p>
+
+    <p>The current time is: <time datetime="2024-12-20">2024-12-20</time></p>
+
+    <img src="image.jpg" alt="An image"> 
+
+    <p>Visit our <a href="https://www.example.com">website</a>.</p>
+
+</body>
+</html>
