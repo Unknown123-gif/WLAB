@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tfoot {
+            background-color: #f2f2f2;
+        }
+
+        .lab {
+            background-color: #ffcccb; /* Highlight lab hours */
+        }
+
+        .elective {
+            background-color: #d1c4e9; /* Highlight elective hours */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Time Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 12:00</th>
+                <th>12:00 - 1:00</th>
+                <th colspan="2">Lab Hours</th>
+                <th>3:00 - 4:00</th>
+                <th>4:00 - 5:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Math</td>
+                <td>Physics</td>
+                <td class="elective">Elective</td>
+                <td>Break</td>
+                <td class="lab" colspan="2">Physics Lab</td>
+                <td>English</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Chemistry</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Break</td>
+                <td class="lab" colspan="2">Chemistry Lab</td>
+                <td>Physics</td>
+                <td class="elective">Elective</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td>Physics</td>
+                <td>Break</td>
+                <td class="lab" colspan="2">Computer Lab</td>
+                <td>Math</td>
+                <td>Sports</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="9">Note: Highlighted cells represent lab and elective hours.</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
