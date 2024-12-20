@@ -1,0 +1,172 @@
+<html>
+<head>
+<style> 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+/* Section styling (on the leftmost side) */
+section {
+  width: 70%; /* Takes up 70% of the width */
+  float: left; /* Float to the left */
+  padding: 20px;
+  margin-right: 20px; /* Space between section and aside */
+  box-sizing: border-box;
+}
+
+/* Article styling */
+article {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+article h2 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+article p {
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Aside styling (on the rightmost side) */
+aside {
+  width: 25%; /* Takes up 25% of the width */
+  float: right; /* Float to the right */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+border-radius: 5px;
+   border: 2px solid #333;
+}
+
+/* Aside header and paragraph styling */
+aside h2 {
+  color: #333;
+}
+
+aside p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+section {
+  width: 70%; /* Takes up 70% of the width */
+  float: left; /* Float to the left */
+  padding: 20px;
+  margin-right: 20px; /* Space between section and aside */
+  box-sizing: border-box;
+  border-radius: 5px;
+   border: 2px solid #333;  /* Change border color */
+margin-bottom: 20px; 
+   
+  
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+footer p {
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<header>
+ <h1>Namma Bengaluru</h1>
+</header>
+<nav>
+ <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</nav>
+<section>
+<article> 
+  <h2>Places to Site</h2>
+  <p>Nandi Hills<br>
+     Iskon Temple<br>
+     Lalbagh<br>
+</p>
+</article>
+<article>
+ <h2>The Famous Food Street..VV Puram</h2>
+ <p>   Timings:4pm-11pm
+    </p>
+</article>
+</section>
+<aside>
+ <h2>#BENGALURU</h2>
+ <p>The diversity of the cuisine available is reflective of the social and economic diversity of Bangalore.<br>
+ Roadside vendors, tea stalls, South Indian, North Indian, Arabic food, Chinese and Western fast food are all very popular in the city.<br> 
+Udupi restaurants, are very popular and serve predominantly vegetarian cuisine.<br>
+ The Chinese food and the Thai food served in most of the restaurants can be customised to cater to the tastes of the Indian population.<br>
+ Bangalore can also be called a foodie's paradise because of its vast variety of foods and edibles with a touch of Bangalore's uniqueness and tradition<br>
+</p>
+</aside>
+<section>
+ <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LCouiq9It0gzYLRSNagwTkpMNUtKtDBPM7BMSzY1tTKosDRLMjIxNDBMMko0TklOsfSSSkrMy0stSs9ILClJVMhLLMnMz0vMUShILMoGAAR7Gj0&q=bannerghatta+national+park&rlz=1C1UEAD_enIN1085IN1085&oq=bann&gs_lcrp=EgZjaHJvbWUqGAgCEC4YQxivARjHARixAxiABBiKBRiOBTIGCAAQRRg5Mg8IARAuGEMYsQMYgAQYigUyGAgCEC4YQxivARjHARixAxiABBiKBRiOBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDwgFEAAYQxixAxiABBiKBTIPCAYQABhDGLEDGIAEGIoFMgoIBxAAGLEDGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIODExMGowajeoAgiwAgE&sourceid=chrome&ie=UTF-8">Bannerghatta national park</a>
+<p>#LoveAnimals</p>
+</section>
+<footer>
+<p>All Rights Rserved</p>
+</footer>
+</body>
+</html>
