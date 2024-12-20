@@ -1,0 +1,63 @@
+/* style.css */
+
+/* Heading styles */
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Horizontal rule style */
+hr {
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+/* Paragraph style */
+p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Div style */
+div.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Span style */
+span.highlight {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Time style */
+time {
+  color: #999;
+}
+
+/* Image style */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Anchor tag style */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
